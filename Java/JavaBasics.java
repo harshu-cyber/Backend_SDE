@@ -154,7 +154,7 @@
 } */
 
 //switch Statement : The switch statement is used to select one of many code blocks to be executed. For example:
-public class JavaBasics {
+/* public class JavaBasics {
     public static void main(String[] args) {
         int day = 3;
         String dayName;
@@ -188,4 +188,186 @@ public class JavaBasics {
 
         System.out.println("Day: " + dayName);
     }
-}
+} */
+
+//Day-03
+//loop: Loops are used to execute a block of code repeatedly until a certain condition is met. For example:
+//for Loop :
+/*  public class JavaBasics {
+    public static void main(String[] args) {
+        // for Loop
+        System.out.println("Numbers from 1 to 5:");
+        for (int i = 1; i <= 5; i++) {
+            System.out.println(i);
+        }
+    }
+}  */
+
+
+//while loop :
+/*  public class JavaBasics {
+    public static void main(String[] args) {
+        // while Loop
+        System.out.println("Numbers from 1 to 5:");
+        int i = 1;
+        while (i <= 5) {
+            System.out.println(i);
+            i++;
+        }
+    }
+}  */
+
+
+
+//do-while loop : do while loop is similar to while loop but it executes the block of code at least once before checking the condition. For example:
+ /* public class JavaBasics {
+    public static void main(String[] args) {
+        // do-while Loop
+        System.out.println("Numbers from 1 to 5:");
+        int i = 1;
+        do {
+            System.out.println(i);
+            i++;
+        } while (i <= 5);
+    }
+}   */
+
+
+//Classes and Objects : In Java, a class is a blueprint for creating objects. An object is an instance of a class. For example:
+/* public class JavaBasics {
+    public static void main(String[] args) {
+        // Creating an object of the Car class
+        Car myCar = new Car("Toyota", "Camry", 2020);
+        myCar.displayInfo();
+    }
+} */
+
+
+//Abstraction : Abstraction is the process of hiding the implementation details and showing only the functionality to the user. For example:
+/* public class JavaBasics {
+    public static void main(String[] args) {
+        // Creating an object of the Car class
+        Car myCar = new Car("Toyota", "Camry", 2020);
+        myCar.startEngine(); // User only interacts with the startEngine method
+    }
+} */
+
+//Encapsulation : Encapsulation is the process of wrapping data and methods into a single unit (class) and restricting access to some of the object's components. For example:
+/* public class JavaBasics {
+    public static void main(String[] args) {
+        // Creating an object of the BankAccount class
+        BankAccount myAccount = new BankAccount("John Doe", 1000);
+        myAccount.deposit(500); // Accessing the deposit method
+        System.out.println("Balance: " + myAccount.getBalance()); // Accessing the getBalance method
+    }
+}  */
+
+
+//Inheritance : Inheritance is a fundamental object-oriented programming concept that allows a new class (called a subclass or child class) to inherit properties and behaviors (fields and methods) from an existing class (called a superclass or parent class). For example:
+/* public class JavaBasics {
+    public static void main(String[] args) {
+        // Creating an object of the Dog class
+        Dog myDog = new Dog("Buddy", 3);
+        myDog.bark(); // Inherited method from the Animal class
+    }
+}  */
+
+
+//Polymorphism : Polymorphism is the ability of an object to take on many forms. It allows a single interface to be used for a general class of actions. For example:
+/* public class JavaBasics {
+    public static void main(String[] args) {
+        // Creating objects of the Animal class
+        Animal myAnimal = new Animal("Generic Animal");
+        Dog myDog = new Dog("Buddy", 3);
+        Cat myCat = new Cat("Whiskers", 2);
+
+        // Polymorphism in action
+        myAnimal.makeSound(); // Output: Generic animal sound
+        myDog.makeSound(); // Output: Woof!
+        myCat.makeSound(); // Output: Meow!
+    }
+}  */
+
+
+//Abstraction, Encapsulation, Inheritance, and Polymorphism are the four fundamental principles of object-oriented programming (OOP) that help in designing and organizing code in a way that promotes reusability, maintainability, and scalability. They allow developers to create modular and flexible code that can be easily extended and modified without affecting other parts of the program.
+
+
+//Methods : Methods are blocks of code that perform a specific task. They are used to define the behavior of an object. For example:
+
+//Array : An array is a data structure that can hold a fixed number of values of the same type. For example:
+/* public class JavaBasics {
+    public static void main(String[] args) {
+        // Array of integers
+        int[] numbers = {1, 2, 3, 4, 5};
+
+        // Accessing array elements
+        System.out.println("First element: " + numbers[0]);
+        System.out.println("Second element: " + numbers[1]);
+        System.out.println("Third element: " + numbers[2]);
+        System.out.println("Fourth element: " + numbers[3]);
+        System.out.println("Fifth element: " + numbers[4]);
+    }
+} */
+
+//Need of Array : Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value. They provide a way to organize and manage data efficiently. For example, if you want to store the names of 5 students, you can use an array instead of declaring 5 separate string variables.
+/* public class JavaBasics {
+    public static void main(String[] args) {
+        // Array of strings to store student names
+        String[] studentNames = {"Alice", "Bob", "Charlie", "David", "Eve"};
+
+        // Accessing array elements
+        System.out.println("Student 1: " + studentNames[0]);
+        System.out.println("Student 2: " + studentNames[1]);
+        System.out.println("Student 3: " + studentNames[2]);
+        System.out.println("Student 4: " + studentNames[3]);
+        System.out.println("Student 5: " + studentNames[4]);
+    }
+} */
+
+
+//Multidimensional Array : A multidimensional array is an array of arrays. It can hold multiple values in a tabular format. For example:
+/* public class JavaBasics {
+    public static void main(String[] args) {
+        // 2D Array to store a matrix
+        int[][] matrix = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
+        };
+
+        // Accessing elements of the 2D array
+        System.out.println("Element at (0,0): " + matrix[0][0]);
+        System.out.println("Element at (1,1): " + matrix[1][1]);
+        System.out.println("Element at (2,2): " + matrix[2][2]);
+    }
+}  */
+
+
+//3D Array : A 3D array is an array of 2D arrays. It can hold multiple values in a three-dimensional format. For example:
+/* public class JavaBasics {    
+    public static void main(String[] args) {
+        // 3D Array to store a cube of values
+        int[][][] cube = {
+            {
+                {1, 2},
+                {3, 4}
+            },
+            {
+                {5, 6},
+                {7, 8}
+            }
+        };
+
+        // Accessing elements of the 3D array
+        System.out.println("Element at (0,0,0): " + cube[0][0][0]);
+        System.out.println("Element at (0,1,1): " + cube[0][1][1]);
+        System.out.println("Element at (1,0,1): " + cube[1][0][1]);
+        System.out.println("Element at (1,1,0): " + cube[1][1][0]);
+    }
+}   */
+
+
+//Drawback of Array : One of the main drawbacks of arrays is that they have a fixed size. Once an array is created, its size cannot be changed. This means that if you need to add more elements than the initial size, you would need to create a new array and copy the existing elements to it, which can be inefficient in terms of time and memory. For example:
+
+
+//Day-04
